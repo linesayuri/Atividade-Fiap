@@ -1,17 +1,18 @@
 /*  */
 /* Configurações Gerais */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400&display=swap');
 
 body {
     /* background-color: #54C9C6; */
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 body {
     margin: 0;
-    color: #104660
+    color: #104660;
+    /* background-color: #54C9C6; */
 }
 
 a {
@@ -26,8 +27,160 @@ a:link a:visited a:active {
     text-decoration: none;
 }
 
+
+
 .maincontainer {
-    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background-color: #54C9C6;
+    padding: 100px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px 60px 40px 60px;
+    width: 1027px;
+    height: 646px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.container1 {
+    width: 40%;
+    align-items: center;
+    align-content: center;
+    border-right: 1px solid #104660;
+    height: 567px;
+}
+
+.container2 {
+    align-items: center;
+    align-content: center;
+    padding: 60px;
+    width: 60%;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.container5 {
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    border-right: 1px solid #104660;
+}
+
+.container6 {
+    align-items: center;
+    align-content: center;
+    padding: 60px;
+    width: 50%;
+}
+
+.container7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.container8 {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: start;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.containercomorbidade1 {
+    align-items: center;
+    align-content: space-around;
+    width: 33%;
+}
+
+.containercomorbidade2 {
+    align-items: center;
+    align-content: space-around;
+    width: 33%;
+}
+
+.containercomorbidade3 {
+    align-items: center;
+    align-content: space-around;
+    width: 33%;
+}
+
+.container9 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.container10 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+
+.container11 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0px 0px 30px 0px;
+}
+
+.container12 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0px 0px 30px 0px;
+}
+
+
+.container13 {
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    height: 560px;
+    border-right: 1px solid #104660;
+}
+
+.container14 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    padding: 0px 0px 0px 30px;
 }
 
 .corFundoLogin {
@@ -44,7 +197,6 @@ a:link a:visited a:active {
     width: 460px;
     float: left;
     padding: 20% 30px 20% 30px;
-
     box-sizing: border-box;
 }
 
@@ -57,15 +209,19 @@ a:link a:visited a:active {
 
 .siteTitle {
     font-size: 100px;
-    font-weight: 400px
+    font-weight: 500;
 }
 
 .siteSubTitle {
-    font-size: 22px
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
 }
 
 .logo {
     font-size: 70px;
+    font-weight: 500;
+    margin: 30px 0px 50px 0px;
 }
 
 
@@ -83,7 +239,7 @@ a:link a:visited a:active {
     font-size: 16px;
     line-height: 20px;
     text-align: left;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .buttonPadrao {
@@ -122,56 +278,76 @@ a:link a:visited a:active {
     font-weight: bold;
 }
 
-.formContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: #ffffff;
-    padding: 85px 60px 40px 60px;
-    width: 1027px;
-    height: 646px;
-    margin: 0 auto;
-    margin-top: 40px;
-    border-radius: 15px;
+
+
+
+.titulo {
     text-align: left;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #104660;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
 }
 
 .texto1 {
-
     text-align: left;
     font-size: 24px;
-    line-height: 10px;
-    font-weight: 700;
+    line-height: 24px;
+    font-weight: 600;
     color: #104660;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .texto2 {
     text-align: left;
     font-size: 12px;
-    line-height: 10px;
+    line-height: 14px;
     font-weight: 700;
     color: #104660;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .texto3 {
     text-align: left;
     font-size: 12px;
-    line-height: 10px;
+    line-height: 14px;
     font-weight: 500;
     color: #104660;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.vl {
-    border-left: 1px solid #104660;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
+.texto4 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #104660;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.comorbidades {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    margin: 3px;
+
+}
+
+/* .vl {
+    align-items: center;
+    border-left: 1px solid #104660;
+    height: 300px;
+    position: absolute;
+    left: 47%;
+    top: 0;
+} */
+
+.recomendacaoTreino {
+    margin: 60px 0px 60px 0px;
+}
+
 
 .inputsContainer {
     width: 1130px;
@@ -184,30 +360,7 @@ a:link a:visited a:active {
     margin-top: 30px;
 }
 
-::placeholder {
-    color: #99D2EA;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-}
 
-.inputPadrao {
-    background-color: #ffffff;
-    border: 2px solid #104660;
-    width: 300px;
-    height: 50px;
-    border-radius: 6px;
-    margin-bottom: 20px;
-    margin-right: 65px;
-    color: #0D3444;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 20px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-}
 
 label {
     color: #0D3444;
@@ -217,36 +370,67 @@ label {
     text-align: center;
 }
 
-::placeholder {
-    font-size: 15px;
-    font-weight: 500;
-    color: #104660;
-}
+
 
 .form1 {
     border-radius: 6px;
     border-color: #104660;
+    width: 185px;
+    height: 24px;
+    margin: 10px 20px 10px 0px;
+}
+
+.form2 {
+    border-radius: 6px;
+    border-color: #104660;
+    width: 185px;
+    height: 24px;
+    margin: 0px 0px 30px 0px;
+}
+
+.form3 {
+    margin: 0px 0px 20px 0px;
 }
 
 .inputPadrao select {
     color: #f0f7fa;
 }
 
+::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    color: #104660;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 /* Buttons Container */
 
 .buttonsContainer {
     display: flex;
-    margin: 40px;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonsContainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .buttonsContainer button {
     width: 300px;
     height: 50px;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
+
 #voltar {
+    width: 156px;
+    height: 30px;
     background-color: #99D2EA;
     color: #104660;
     border-radius: 8px;
@@ -268,6 +452,8 @@ label {
 }
 
 #finalizar {
+    width: 156px;
+    height: 30px;
     background-color: #104660;
     color: #ffffff;
     border-radius: 8px;
@@ -283,7 +469,44 @@ label {
 }
 
 #finalizar:active {
-    background-color: #CBEFEE;
+    background-color: #104660;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+#seguinte {
+    width: 156px;
+    height: 30px;
+    background-color: #104660;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+#seguinte:hover {
+    border: 1px solid #CBEFEE;
+    background-color: #99D2EA;
+}
+
+#seguinte:active {
+    background-color: #104660;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Fim Buttons Container */
@@ -307,4 +530,12 @@ label {
     vertical-align: bottom;
     position: relative;
     accent-color: #104660;
+}
+
+
+.localTreino {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
 }
