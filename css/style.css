@@ -1,0 +1,59 @@
+/*  */
+/* Configurações Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+
+body {
+    background-color: #F0F7FA;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {margin:0;height: 1024px;color:#104660}
+
+.leftNav {background-color: #54C9C6;
+    height: 100%;width: 460px;
+    float: left;
+    padding:20% 30px 20% 30px;
+
+    box-sizing: border-box;}
+.rightNav {background-color: #fff;height: 100%;width: calc(100% - 460px);float: right;}
+.siteTitle {font-size: 100px;font-weight:400px}
+.siteSubTitle {font-size: 22px}
+
+.inputPadrao {
+    border: 1px solid #104660;
+    width: 450px;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-right: 65px;
+    color: #104660;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.buttonPadrao {    width: 450px;
+    height: 50px;
+    margin-right: 50px;
+border-radius: 8px;
+background-color:  #104660;
+color:#fff;
+font-size:18px;
+border-color: #104660;
+}
+
+.loginPlace {
+    position: absolute;
+    margin:16%;
+    width: 460px;
+}
+
+.loginTitle{text-align: center;font-size:32px;margin-bottom:40px;font-weight: bold;}
+.loginSubTitle {font-size:18px;font-weight: lighter;margin-top:10px}
+.cadastroTitle {text-align: left;margin-top: 30px;font-weight: bold;}
